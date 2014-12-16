@@ -1,0 +1,2 @@
+Glados is a PHP-boilerplate/framework for small websites. Glados was built by Annie Persson as part of learning web programming and based on Anax created by Michael Roos (me@michaelroos.se) published in june 2013 as an article at http://dbwebb.se/kunskap (swedish). It was also published at GitHub: https://github.com/mosbth/Anax-base.
+

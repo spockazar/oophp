@@ -1,0 +1,6 @@
+Test your page:
+http://www.student.bth.se/~capd14/oophp/me/kmom03/webroot/me.php
+
+
+Connect to FilZilla:
+sftp://sftp.student.bth.se

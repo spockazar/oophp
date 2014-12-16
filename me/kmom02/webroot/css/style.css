@@ -1,0 +1,139 @@
+/**
+ * General elements
+ */
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+ 
+ 
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/** --------------------------------------------------------------
+ * Navbar: Plain style, nothing special
+ *
+ */
+nav {margin-left: 40px;} 
+ 
+ul.nb-plain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nb-plain li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+ul.nb-plain li:first-child {
+  padding-left: 0;
+}
+
+ul.nb-plain li.selected a {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}    
+
+ul.nb-plain a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+ul.nb-plain a:hover {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+}
+
+ 
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 160px;
+  font-size: 48px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 160px;
+  font-style: italic;
+  color: #666;
+}
+ 
+ 
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+  margin-left: 40px;
+}
+ 
+ 
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+ 
+.sitefooter {
+  color: #666;
+}
+
+/**
+ * Byline
+ */
+.byline {
+  border-top: 1px dashed #ccc;
+  font-style: italic;
+}
+
+/**
+ * Css sprite for a dice with six faces
+ *
+ */
+ul.dice {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.dice li {
+	display: inline-block;
+	padding: 0;
+	margin: 0 4px 0 0;
+	width: 32px;
+	height: 32px;
+	background: url(../img/dice-faces.jpg) no-repeat;
+}
+
+ul.dice li.dice-1 {background-position: -160px 0px}
+ul.dice li.dice-2 {background-position: -128px 0px}
+ul.dice li.dice-3 {background-position: -96px 0px}
+ul.dice li.dice-4 {background-position: -64px 0px}
+ul.dice li.dice-5 {background-position: -32px 0px}
+ul.dice li.dice-6 {background-position: 0px 0px}
+

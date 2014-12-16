@@ -1,0 +1,7 @@
+Detta är den del som måste finnas tillgänglig via webbserverns webbroot. Det är javascript-filer som behöver laddas ned, det är stylesheets för utseende och det är bilder.
+
+Här läggs också alla webbsidor i form av en egen fil, till exempel hello.php. Så fort man vill ha en ny webbsida så skapar man bara en ny PHP-fil. En sådan här fil kallar jag sidkontroller i fortsättningen. Det är en PHP-fil med syfta att skapa en webbsida, en sidkontroller alltså.
+
+Ibland är det svårt att få ihop länkningen till bilder, stylesheets och javascript. Men om man håller denna strukturen så kan man använda relativ sökväg då dessa resurser ligger i underkataloger direkt under webbsidan. Det blir enkelt att hantera och enkelheten är prioriterad.
+
+Resten av Anax, det som inte ligger under webroot, kan i princip installeras var som helst på maskinen. Det behöver inte finnas tillgängligt via webbservern. Det kan vara viktigt med tanke på säkerhetsaspekter.

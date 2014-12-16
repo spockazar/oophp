@@ -1,0 +1,3 @@
+Jag vill separera kod som har olika syfte. Att separera kod för logik (PHP-kod) och innehåll (webbsidans innehåll i form av text) från kod som har med presentationen (utseende) att göra låter som en bra idé. Det som har med presentation och genereringen av HTML-sidan lägger jag i denna tema-katalog. Tanken är att sidkontrollern samlar allt innehåll, det som skall presenteras på webbsidan, i en PHP-array. När sidkontrollern är klar så lämnar den över till tema-delen, tema-motorn, som vet hur informationen i arrayen skall presenteras på webbsidan.
+
+Ett tema handlar inte bara om en stylesheet, det behövs en HTML-struktur i form av det jag brukar kalla en template-fil och det kan behövas lite hjälp av PHP-funktioner som är temaspecifika.

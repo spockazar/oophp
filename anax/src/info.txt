@@ -1,0 +1,3 @@
+Här lägger jag all kod som jag tänker återanvända. Det kan vara klasser för formulärhantering, databashantering, textfiltrering eller kanske en hel blogg-klass. Jag tänker mig att varje återanvändbar modul läggs i en egen underkatalog och alla filer och kod som hör till modulen hamnar i samma katalog.
+
+Koden behöver inte just vara klasser, men det är ett bra sätt att organisera sin kod, så det kommer nog att bli en hel del klasser. En modul är mitt begrepp för koden som ligger i en katalog. Det är kod som hör ihop och löser en uppgift. CBlogg kan vara en modul som löser en blogg, men koden som finns i modulen kan vara en samling av klasser och annan kod.
