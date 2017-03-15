@@ -15,7 +15,7 @@ $glados['main'] = <<<EOD
 	<h1>Om mig</h1>
 	
 	<p>Det här är min me-sida för kursen oophp.</p>
-	<p>Mitt namn är Cathrine. Jag är uppvuxen i Skåne men bor numer i Skottland. Jag läser kurspaketet Databaser och Webbprogrammering vid Blekinges Tekniska Högskola på deltid. Resterande tiden jobbar jag eller kollar på Star Trek.</p>
+	<p>Om mig</p>
 
 {$glados['byline']}
 </article>
